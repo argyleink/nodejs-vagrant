@@ -3,7 +3,7 @@
     { "name": "rake" }
   ],
   "node_modules":[
-    "coffee-script"
+    "socket.io"
   ],  
   "rabbitmq_plugins":[
     "rabbitmq_management",
@@ -15,7 +15,6 @@
    "recipe[monit]", 
    "recipe[gems]", 
    "recipe[nodejs]", 
-   "recipe[rabbitmq]", 
    "recipe[mongodb]"  
  ] 
 }
